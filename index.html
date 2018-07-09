@@ -1,8 +1,1962 @@
-<html>
-    <head>
-        <title>TIL</title>
-    </head>
-    <body>
-        <p>? target monitor</p>
-    </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Batch Monitoring System | Final Presentation of Major Project | by Shreyas Ghanate</title>
+
+    <meta name="description" content="This is the final presentation for the major project done for the period of 6 months at Phoenix American SalesFocus Solutions, under guidance of Assistant Professor Satyabrata Roy and company's Senior Manager Shanmuga Kumar Nagappan">
+    <meta name="author" content="Shreyas Ghanate" />
+    
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/magic.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="background"></div>
+    <div id="hint">an
+        <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation by
+        <a href="https://in.linkedin.com/in/shrys">Shreyas Ghanate</a>
+        - use the spacebar or arrow keys to navigate
+    </div>
+    <div id="impress" class="impress">
+        <div id="blank" class="step" data-x="0" data-y="0" data-scale="20">
+
+        </div>
+        <div id="title" class="step" data-x="0" data-y="0" data-scale="20">
+            <div id="title-text1" class="big bold">Batch
+                <br /> Monitoring
+                <br />System</div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="small extralight">by Shreyas Ghanate</div>
+        </div>
+        <div id="company" class="step" data-x="0" data-y="0" data-scale="1">
+            <img src="./img/logo/Final.png" height="200" />
+            <br />
+            <div style="font-size: 45px">Phoenix American SalesFocus Solutions</div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+        <div id="services-data" class="step" data-x="-240" data-y="140" data-scale=".38">
+            <div class="big bold" style="font-size: 45px">Data Management and Cleaning</div>
+            <div class="small extralight">Provides data management services to clients</div>
+        </div>
+        <div id="service-crm" class="step" data-x="-240" data-y="190" data-scale=".38">
+            <div class="big bold" style="font-size: 45px">SalesForce CRM Integrations</div>
+            <div class="small extralight">Integrations give backward compatibility with other tools</div>
+        </div>
+        <div id="service-ba" class="step" data-x="240" data-y="140" data-scale=".38">
+            <div class="big bold" style="font-size: 45px">Business Analysis</div>
+            <div class="small extralight">Identifying needs and determining solutions to business problems</div>
+        </div>
+        <div id="services-se" class="step" data-x="240" data-y="190" data-scale=".38">
+            <div class="big bold" style="font-size: 45px">Software Engineering</div>
+            <div class="small extralight">Professional services & MARS, an industry-specific product (SaaS/PaaS)</div>
+        </div>
+        <div id="bs" class="step" data-x="1200" data-y="0" data-scale="1">
+            <h2 style="font-size: 45px">What's Batch Monitoring?</h2>
+        </div>
+        <div id="bs-img" class="step" data-x="1200" data-y="200" data-scale="1">
+            <table style="display: flex; justify-content: center;">
+                <tr class="substep">
+                    <td id="box-one" class="substep" style="position: relative; top: 48px">
+                        <img src="img/diagram/pasfs.svg" />
+                        <div style="line-height: 1.2;"><br />Company serves
+                                <br />multiple clients
+                                <br />by providing MARS
+                                <br />software
+                            </div>
+                    </td>
+                    <td>
+                        <img src="img/diagram/arrow.svg" id="arrow-one" />
+                    </td>
+                    <td id="box-two" class="substep" style="position: relative; top: 56px">
+                        <img src="img/diagram/client.svg" />
+                        
+                        <div style="line-height: 1.2;"><br />Each client has
+                                <br />many vendors and
+                                <br />expects files from
+                                <br />vendors at certain time
+                                <br />on daily basis</div>
+                    </td>
+                    <td>
+                        <img src="img/diagram/arrow.svg" id="arrow-two"/>
+                    </td>
+                    <td id="box-three" class="substep" style="position: relative; top: 37px">
+                        <img src="img/diagram/vendor.svg" />
+                        <div style="line-height: 1.2;"><br />Vendor approves
+                                <br />PASFS to recieve
+                                <br />files on its behalf</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="vendor-mars-relation" class="step" data-x="1800" data-y="100" data-z="-1000" data-scale="0.2">
+            <div id="state-diag">
+                <h3 style="font-size: 45px">How MARS helps in file delivery</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" content="&lt;mxfile userAgent=&quot;Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36&quot; version=&quot;8.8.4&quot; editor=&quot;www.draw.io&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;8df61034-fd22-530c-aad6-3e22846f9c8b&quot; name=&quot;Page-1&quot;&gt;7VtbU9s4FP4t+5BHGMvX5BECbDvT7nSa7bZ9VGw5cetYWVkB0l+/R7ZkW5YCIXGgS8sDyEdXn8t3LjIjb7q6/5Ph9fI9TUg+cp3kfuRdjVwXORMX/gjKtqYEvlMTFixL5KCWMMt+EDVTUjdZQkptIKc059laJ8a0KEjMNRpmjN7pw1Ka67uu8YIYhFmMc5P6OUv4sqaO3ailvyHZYql2RuGk7pnj+PuC0U0h9ytoQeqeFVbLyHcslzihdx2Sdz3ypoxSXrdW91OSC7YqjtXzbnb0NkdmpOD7TPDrCbc438i3lufiW8UGmAAch4fLJV/lQEPQhHOvRX/JMeMzjrnoT7M8n9Kcsmqi51Q/YjBn9Dvp9KSp7JG7E8bJ/c43QA1fQNUIXRHOtjBETnCdoJ4itSySnL1rReZJ0rIjLUXDUkkWzcItt6AhGWZnXrAH8xJQKflIGV/SBS1wft1Su0wVfMhA/y7ybFEAbU45pyvoIEVyIRRaLLImRU2RBjN+kMHARLb9AkTnPFCPX8Vjw3xxQo31Jd2wmGjqYUgDLBGzBZGk0C4gRnLMs1t9dRu/5dQPNINNGsGisaMJ1nV6IquPIGe1UgNO4W1n2FoMKA25NgfdS9QIHSDaCgJIItn9bbNaq/EVIkhSLUaEdF0g9xn/0ml/bWT4jXC+lbPwhlMgtdu/o3StTLRSCoVc7m6BW6Tb1YHQFDhyjpT4vhYWGhb2NsmJIQrzVVvWC1ZgFis2C0ncLTNOZmtcveEdOC+d9ViaXwxcIUzgGi24mu+bOJdgMk5jmxmG8ZjM02FwDk10c0CRawBdaAG6IDheDMh/BdrfQqEGhNWqh1mGwnvNNLwhwHA3htmxMnR15fDQRHf7j4xX2NrqQ32Cg+HSdI2cQUtsG+bAqss5g9ZCtEbBZaVamG9KMQBGiwnO7NN0ej2bCVJwZegfGBLXdYaRMvuB59UAIWLJMxgNG8AKFsPuO9xVliSV7uZ4TvLLJoxTJi0Vd6c1y0hUHqKN8jQ98h80c+fcHQeRJpwzufqR/vTMdaLzoLdypK9C07QkfNSHhqcJ3/VeCC1kjCPxAj0S/jy3H1VpTRctagR5BkeqkpaOQX7GwtzAl5Fqwzgjt4L/N6/H1NwdWNyYmuNGYx03B7E09BxWptTpoezjV4iLfKcXF4WhERch3xIYheMBAiPXEMI/kJrBe4IcoFHWykRusdAPw/O5IV4JJhfzcl3zj1RFDvj1/uLjrFqEAXf2MMkBONmEjw0nzVQaoRPl0sgEqN9exJJro9Mk25GH9IDQ8/Ulak9mJNvmQlGoI2rUyz+enLXvOnBgPfBgEaz3G14rlDRA4Tnh1cz/TVB4qDwpymQvWZyM+nlZZHLvVNVJNN6DeW1hUQJkl4lmCi0h8gxCJyfScvPQUwM+EJbBYYUKVwh5qNo+jowm2ztsDWy1EEk7Eiy9yUS3iUlPXPuCZXMj0izUO8sOsDwEzyaGNsw4ZSLeuKnCDjM4eTTm0CUoFagrbknaPxmwQaTu0wcwSt/VXQcKI8MoJ4GpPSo7OCoPM6P2T+tEIJTrXGFIZ3D5a8mid3vjOr6qUXQdjA0j3QEwUq37UwWZZnnyuUsVylN0A0/vuUoVKhLtmEiKc6tZ6JXDP6rB/brhAbb0PylveDtuYZryBhqHvmZdZ+4g/u8M+f1CYh8bhykkmtm1IT22pKs5iP/R8LoXhqRp6sbWMCQJ52EQPmBNxyXZvWscd+IbcPdQ6HKUZb1UYda8xvmZ0M6zoN3RafbeMrHpeI1Z5RoXCrX+ojxLxQGmeUbaWhKs3h1lWoeWjz7NQvYI1E9iIYHXq8mGyAwIXFvGOYSJmB/EVJ+4WIt3J/EsoPCltKaOo8lJyi1uhgtjEIoSZ8Xi78oyzvyBgMrRb6ECMyyzpf1DZK6eeXsIieprZ3jUS0t8Z7IXxweJg83q6wdGY1KWTX74mlgd9r+lUMWqDqvHp2L177LMicoyRqny0LLM2EG9hU5WlvHNesA7igHr1MUsbEEfvzliJCbZLdgJzEgydv7azNXtycNWJJicyBv5tpupWiB1fuY6c8oSUptL+O9GfLt7idqmdsymX1xbBtqgGPZd4yQRYuwO9bVRrVAVUS5+AZ1q1bo607DC0lUf+SymeY6r8vlFlXXKp86GerTD5zTZGkQjKILzANOlZrSryXR55+pzRZjJnL6Jcuf9oUATm5hE8ywmJXnS6WYiACSW+EOk9XRjiQ2vAbyZSZ5tYuFS001u9k1xIeRv26b2vw6kAPD7o/pQwxh2Bei5FR3O29Wa2kLWeoWdr9MuMOuGvIKpyV6cFkSbfgh6bSkHljO79zWWmiYFdEnzyl2K3lF1/1N/Vi9mHFiCecKnmb2U3ncNcEK2TzNR6B8PT4FZLrvEPF42gZtT34C5zlWGFwyvdnF/aIfQlMBMnyBuNm/wKssFx96Q/JaImSPtylMw/BHRidE2Fel6Oa160V7IiqdFjstStmO6ymLZ1pSnOpHkFRpAV7ze5yoqpOxeCNqS2wNCT3hs/5Gkjk3af9Txrv8D&lt;/diagram&gt;&lt;/mxfile&gt;"
+                    id="Hk18ZZtZQ" viewBox="0 0 794 414">
+                    <style>
+                        @-webkit-keyframes SJ6S1I-WF-X_Animation {
+                            83.89% {
+                                opacity: 0;
+                            }
+                            84.44% {
+                                opacity: 0.12;
+                            }
+                            85% {
+                                opacity: 0.24;
+                            }
+                            85.56% {
+                                opacity: 0.36;
+                            }
+                            86.11% {
+                                opacity: 0.48;
+                            }
+                            86.67% {
+                                opacity: 0.6;
+                            }
+                            86.94% {
+                                opacity: 0.8;
+                            }
+                            87.22% {
+                                opacity: 1;
+                            }
+                            0% {
+                                opacity: 0;
+                            }
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+
+                        @keyframes SJ6S1I-WF-X_Animation {
+                            83.89% {
+                                opacity: 0;
+                            }
+                            84.44% {
+                                opacity: 0.12;
+                            }
+                            85% {
+                                opacity: 0.24;
+                            }
+                            85.56% {
+                                opacity: 0.36;
+                            }
+                            86.11% {
+                                opacity: 0.48;
+                            }
+                            86.67% {
+                                opacity: 0.6;
+                            }
+                            86.94% {
+                                opacity: 0.8;
+                            }
+                            87.22% {
+                                opacity: 1;
+                            }
+                            0% {
+                                opacity: 0;
+                            }
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+
+                        #Hk18ZZtZQ * {
+                            -webkit-animation-duration: 12s;
+                            animation-duration: 12s;
+                            -webkit-animation-play-state: running;
+                            animation-play-state: running;
+                            -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                            animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                        }
+
+                        #r1lyU-ZtbX {
+                            -webkit-transform: translate(0.5px, 0.5px);
+                            transform: translate(0.5px, 0.5px);
+                        }
+
+                        #B1-yIWZKbQ {
+                            fill: #000000;
+                            stroke: #ff0000;
+                        }
+
+                        #Hyf18Z-FW7 {
+                            fill: none;
+                            stroke: #ff0000;
+                        }
+
+                        #S1XJU-ZY-m {
+                            fill: none;
+                            stroke: #ff0000;
+                        }
+
+                        #ByNJLbWtbX {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #BkHk8ZbKZm {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #ryLJ8-WYWm {
+                            fill: #dae8fc;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #B1wyL-bFbQ {
+                            -webkit-transform: translate(197.5px, 175.5px);
+                            transform: translate(197.5px, 175.5px);
+                        }
+
+                        #r1YJUZWYbQ {
+                            overflow: visible;
+                        }
+
+                        #HJ9y8ZZt-Q {
+                            display: inline-block;
+                            font-size: 14px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            width: 23px;
+                            white-space: nowrap;
+                            word-wrap: normal;
+                            text-align: center;
+                        }
+
+                        #Sko1I-ZF-X {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #SJ3JLbbFWm {
+                            fill: #000000;
+                        }
+
+                        #SJpy8-ZFZ7 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #r1AkUZWKWX {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #S1ye18ZZFbm {
+                            -webkit-transform: translate(341.5px, 271.5px);
+                            transform: translate(341.5px, 271.5px);
+                        }
+
+                        #B1-lJUWWYZ7 {
+                            overflow: visible;
+                        }
+
+                        #BkMlkLZZYWX {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                            text-align: center;
+                        }
+
+                        #H1Ql1IbbFW7 {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #H1Be1IbWY-X {
+                            fill: #000000;
+                        }
+
+                        #BkUx1UbZKZm {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #r1De18WbtbX {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #BydeyIb-tbX {
+                            -webkit-transform: translate(346.5px, 228.5px);
+                            transform: translate(346.5px, 228.5px);
+                        }
+
+                        #S1ceJ8-ZKbm {
+                            overflow: visible;
+                        }
+
+                        #BkslJU-bYbm {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                            text-align: center;
+                        }
+
+                        #rkhgJU--KWX {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #Sy6gkUW-YZQ {
+                            fill: #000000;
+                        }
+
+                        #HkRxJL-ZFZ7 {
+                            fill: #dae8fc;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #SkkWJUWZFbm {
+                            -webkit-transform: translate(251.5px, 150.5px);
+                            transform: translate(251.5px, 150.5px);
+                        }
+
+                        #r1ZWkIWbtW7 {
+                            overflow: visible;
+                        }
+
+                        #HJzWkIW-Kbm {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                        }
+
+                        #H1XZJ8ZZKW7 {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #r1H-JU-ZKWX {
+                            fill: #000000;
+                        }
+
+                        #H18-yLb-tb7 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #rJvbyIb-Kbm {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #SkuZ1LbZFbX {
+                            fill: #dae8fc;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #HytZy8WZY-7 {
+                            fill: #000000;
+                            stroke: #ff0000;
+                        }
+
+                        #B19-kI-bYbm {
+                            fill: none;
+                            stroke: #ff0000;
+                        }
+
+                        #SJoZ18ZZYZm {
+                            fill: none;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #B1nZ1UWbK-m {
+                            -webkit-transform: translate(436.5px, 156.5px);
+                            transform: translate(436.5px, 156.5px);
+                        }
+
+                        #rJCWJI--YZX {
+                            overflow: visible;
+                        }
+
+                        #B1yM18W-YZQ {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            width: 53px;
+                            white-space: nowrap;
+                            word-wrap: normal;
+                            text-align: center;
+                        }
+
+                        #SklfJIZ-YZQ {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #S1MfJ8--KWm {
+                            fill: #000000;
+                        }
+
+                        #BJXf18WbKZ7 {
+                            -webkit-transform: translate(412.5px, 192.5px);
+                            transform: translate(412.5px, 192.5px);
+                        }
+
+                        #rJrzJLbZY-m {
+                            overflow: visible;
+                        }
+
+                        #rkIMy8WbKZX {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            width: 94px;
+                            white-space: nowrap;
+                            word-wrap: normal;
+                            text-align: center;
+                        }
+
+                        #HywMkL-ZFWX {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #rkFMkL-WYbQ {
+                            fill: #000000;
+                        }
+
+                        #ryqzJUbbtWm {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #HysM1I-ZY-Q {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #Hy2M18-ZY-X {
+                            -webkit-transform: translate(343.5px, 341.5px);
+                            transform: translate(343.5px, 341.5px);
+                        }
+
+                        #BkCzJLZ-KbQ {
+                            overflow: visible;
+                        }
+
+                        #ByJmJL-WKb7 {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                            text-align: center;
+                        }
+
+                        #Skl7J8-ZKZm {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #rJmmyLWWF-X {
+                            fill: #000000;
+                        }
+
+                        #HJVmkIZZYWQ {
+                            fill: #fff2cc;
+                            stroke: #d6b656;
+                            stroke-width: 2;
+                        }
+
+                        #ryHX18ZWYZQ {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #ryUm1IZ-t-m {
+                            fill: #000000;
+                            stroke: #000000;
+                            stroke-width: 2;
+                        }
+
+                        #ByPQyI-WtWQ {
+                            fill: #dae8fc;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #r1_mJ8--YWQ {
+                            -webkit-transform: translate(554.5px, 368.5px);
+                            transform: translate(554.5px, 368.5px);
+                        }
+
+                        #Hy5Q1I--Y-7 {
+                            overflow: visible;
+                        }
+
+                        #BJiX18b-FZm {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            width: 65px;
+                            white-space: nowrap;
+                            word-wrap: normal;
+                            text-align: center;
+                        }
+
+                        #By3mJLZ-KW7 {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #HJCm1LW-K-X {
+                            fill: #000000;
+                        }
+
+                        #r1JNyLWZYbX {
+                            -webkit-transform: translate(198.5px, 41.5px);
+                            transform: translate(198.5px, 41.5px);
+                        }
+
+                        #By-E1LZWtZ7 {
+                            overflow: visible;
+                        }
+
+                        #rkfEkUZ-KWQ {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                        }
+
+                        #r17NJ8--K-m {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #ryUVkLb-KbQ {
+                            fill: #000000;
+                        }
+
+                        #ByvNyLZbKWX {
+                            -webkit-transform: translate(716.5px, 395.5px);
+                            transform: translate(716.5px, 395.5px);
+                        }
+
+                        #SyYN1U--tZX {
+                            overflow: visible;
+                        }
+
+                        #SJ5VJLWWtb7 {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                        }
+
+                        #BkoVkU-bYZX {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #SkpNy8WbtZm {
+                            fill: #000000;
+                        }
+
+                        #SyA4yUWbF-m {
+                            -webkit-transform: translate(681.5px, 154.5px);
+                            transform: translate(681.5px, 154.5px);
+                        }
+
+                        #HyxHJUbZtWX {
+                            overflow: visible;
+                        }
+
+                        #B1ZSJU-bFZX {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                        }
+
+                        #rJfr1I-bKWX {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #H17SyUbWF-Q {
+                            fill: #000000;
+                        }
+
+                        #H1NSk8-WtZm {
+                            fill: none;
+                            stroke: #6c8ebf;
+                            stroke-width: 2;
+                        }
+
+                        #rJBHkU-ZYbQ {
+                            -webkit-transform: translate(683.5px, 181.5px);
+                            transform: translate(683.5px, 181.5px);
+                        }
+
+                        #rJvSk8bbYbQ {
+                            overflow: visible;
+                        }
+
+                        #BJ_ryIWZtWm {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                        }
+
+                        #BJFBkLWZF-m {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #Hyjry8WZKbm {
+                            fill: #000000;
+                        }
+
+                        #r1hHJIbbY-Q {
+                            fill: none;
+                            stroke: #000000;
+                            visibility: hidden;
+                        }
+
+                        #SJ6S1I-WF-X {
+                            -webkit-transform: translate(0.5px, 226.5px);
+                            transform: translate(0.5px, 226.5px);
+                            -webkit-transform-origin: 50% 50%;
+                            transform-origin: 50% 50%;
+                            transform-box: fill-box;
+                            opacity: 1;
+                        }
+
+                        #Hk18ZZtZQ:hover #SJ6S1I-WF-X {
+                            -webkit-animation-name: SJ6S1I-WF-X_Animation;
+                            animation-name: SJ6S1I-WF-X_Animation;
+                        }
+
+                        #r1J8yU-bt-7 {
+                            overflow: visible;
+                        }
+
+                        #SJxLJLWWF-7 {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            width: 159px;
+                            height: 163px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+
+                        #SkZL1UWZF-m {
+                            width: 100%;
+                            height: 100%;
+                            border-collapse: collapse;
+                        }
+
+                        #BklDJ8bWFbQ {
+                            fill: #000000;
+                        }
+
+                        #rybwyUZWYbX {
+                            -webkit-transform: translate(291.5px, -0.5px);
+                            transform: translate(291.5px, -0.5px);
+                        }
+
+                        #Bk7w1LZ-K-7 {
+                            overflow: visible;
+                        }
+
+                        #Bk4wJUZZKZ7 {
+                            display: inline-block;
+                            font-size: 22px;
+                            font-family: Helvetica;
+                            color: rgb(0, 0, 0);
+                            line-height: 1.2;
+                            vertical-align: top;
+                            white-space: nowrap;
+                            font-weight: bold;
+                        }
+
+                        #ByBPJIb-K-Q {
+                            display: inline-block;
+                            text-align: inherit;
+                            text-decoration: inherit;
+                        }
+
+                        #BJIPyUWWYb7 {
+                            fill: #000000;
+                        }
+                    </style>
+                    <defs/>
+                    <g id="r1lyU-ZtbX">
+                        <ellipse cx="210" cy="69" rx="11" ry="11" pointer-events="none" id="B1-yIWZKbQ" />
+                        <path d="M 210 84 L 210 153.76" stroke-miterlimit="10" pointer-events="none" id="Hyf18Z-FW7" />
+                        <path d="M 205.5 145.88 L 210 154.88 L 214.5 145.88" stroke-miterlimit="10" pointer-events="none" id="S1XJU-ZY-m" />
+                        <path d="M 240 184 L 381.76 184" stroke-miterlimit="10" pointer-events="none" id="ByNJLbWtbX" />
+                        <path d="M 387.76 184 L 379.76 188 L 381.76 184 L 379.76 180 Z" stroke-miterlimit="10" pointer-events="none" id="BkHk8ZbKZm"
+                        />
+                        <rect x="180" y="156" width="60" height="55" rx="5.5" ry="5.5" pointer-events="none" id="ryLJ8-WYWm" />
+                        <g id="B1wyL-bFbQ">
+                            <switch id="rydkUbbt-m">
+                                <foreignObject pointer-events="all" width="23" height="14" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="r1YJUZWYbQ">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="HJ9y8ZZt-Q">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="Sko1I-ZF-X">Idle</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="12" y="14" text-anchor="middle" font-size="14px" font-family="Helvetica" id="SJ3JLbbFWm">Idle</text>
+                            </switch>
+                        </g>
+                        <path d="M 330 303 L 610 303 L 610 184 L 641.76 184" stroke-miterlimit="10" pointer-events="none" id="SJpy8-ZFZ7" />
+                        <path d="M 647.76 184 L 639.76 188 L 641.76 184 L 639.76 180 Z" stroke-miterlimit="10" pointer-events="none" id="r1AkUZWKWX"
+                        />
+                        <g id="S1ye18ZZFbm">
+                            <switch id="rJlekLW-FbX">
+                                <foreignObject pointer-events="all" width="124" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="B1-lJUWWYZ7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="BkMlkLZZYWX">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="H1Ql1IbbFW7">true
+                                            <br id="rkVeyLb-KZm" />[ status == SUCCESS ]</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="62" y="19" text-anchor="middle" font-size="12px" font-family="Helvetica" id="H1Be1IbWY-X">true &lt;br&gt;[ status == SUCCESS ]</text>
+                            </switch>
+                        </g>
+                        <path d="M 460 218 L 460 248 L 305 248 L 305 269.76" stroke-miterlimit="10" pointer-events="none" id="BkUx1UbZKZm" />
+                        <path d="M 305 275.76 L 301 267.76 L 305 269.76 L 309 267.76 Z" stroke-miterlimit="10" pointer-events="none" id="r1De18WbtbX"
+                        />
+                        <g id="BydeyIb-tbX">
+                            <switch id="HktgyLWWY-Q">
+                                <foreignObject pointer-events="all" width="98" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="S1ceJ8-ZKbm">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="BkslJU-bYbm">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="rkhgJU--KWX">Was file recieved?</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="49" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="Sy6gkUW-YZQ">Was file recieved?</text>
+                            </switch>
+                        </g>
+                        <rect x="390" y="150" width="140" height="68" rx="6.8" ry="6.8" pointer-events="none" id="HkRxJL-ZFZ7" />
+                        <g id="SkkWJUWZFbm">
+                            <switch id="r1ebJLZWF-m">
+                                <foreignObject pointer-events="all" width="119" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="r1ZWkIWbtW7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="HJzWkIW-Kbm">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="H1XZJ8ZZKW7">Vendor sends relevant
+                                            <br id="B1NbJIZ-tbX" /> file to MARS server</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="60" y="19" text-anchor="middle" font-size="12px" font-family="Helvetica" id="r1H-JU-ZKWX">[Not supported by viewer]</text>
+                            </switch>
+                        </g>
+                        <path d="M 721 218 L 725 218 L 725 351.76" stroke-miterlimit="10" pointer-events="none" id="H18-yLb-tb7" />
+                        <path d="M 725 357.76 L 721 349.76 L 725 351.76 L 729 349.76 Z" stroke-miterlimit="10" pointer-events="none" id="rJvbyIb-Kbm"
+                        />
+                        <rect x="650" y="150" width="140" height="68" rx="6.8" ry="6.8" pointer-events="none" id="SkuZ1LbZFbX" />
+                        <ellipse cx="725" cy="375" rx="11" ry="11" pointer-events="none" id="HytZy8WZY-7" />
+                        <ellipse cx="725" cy="375" rx="15" ry="15" pointer-events="none" id="B19-kI-bYbm" />
+                        <path d="M 389 174 L 530 175" stroke-miterlimit="10" pointer-events="none" id="SJoZ18ZZYZm" />
+                        <g id="B1nZ1UWbK-m">
+                            <switch id="Hyaby8bbFbQ">
+                                <foreignObject pointer-events="all" width="51" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="rJCWJI--YZX">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="B1yM18W-YZQ">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="SklfJIZ-YZQ">Store File
+                                            <br id="r1WfJU-bY-X" />
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="26" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="S1MfJ8--KWm">Store File&lt;br&gt;</text>
+                            </switch>
+                        </g>
+                        <g id="BJXf18WbKZ7">
+                            <switch id="ryEzJU-ZF-m">
+                                <foreignObject pointer-events="all" width="94" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="rJrzJLbZY-m">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="rkIMy8WbKZX">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="HywMkL-ZFWX">Update Database
+                                            <br id="ByOMy8-btZQ" />
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="47" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="rkFMkL-WYbQ">Update Database&lt;br&gt;</text>
+                            </switch>
+                        </g>
+                        <path d="M 305 328 L 305 375 L 519.76 375" stroke-miterlimit="10" pointer-events="none" id="ryqzJUbbtWm" />
+                        <path d="M 525.76 375 L 517.76 379 L 519.76 375 L 517.76 371 Z" stroke-miterlimit="10" pointer-events="none" id="HysM1I-ZY-Q"
+                        />
+                        <g id="Hy2M18-ZY-X">
+                            <switch id="B1pMJLWbtbX">
+                                <foreignObject pointer-events="all" width="120" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="BkCzJLZ-KbQ">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="ByJmJL-WKb7">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="Skl7J8-ZKZm">false
+                                            <br id="S1WX1IZ-tb7" />[ status != SUCCESS ]
+                                            <br id="B1f7yUZ-K-m" />
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="60" y="19" text-anchor="middle" font-size="12px" font-family="Helvetica" id="rJmmyLWWF-X">false&lt;br&gt;[ status != SUCCESS ]&lt;br&gt;</text>
+                            </switch>
+                        </g>
+                        <path d="M 305 278 L 330 303 L 305 328 L 280 303 Z" stroke-miterlimit="10" pointer-events="none" id="HJVmkIZZYWQ" />
+                        <path d="M 648 375 L 701.76 375" stroke-miterlimit="10" pointer-events="none" id="ryHX18ZWYZQ" />
+                        <path d="M 707.76 375 L 699.76 379 L 701.76 375 L 699.76 371 Z" stroke-miterlimit="10" pointer-events="none" id="ryUm1IZ-t-m"
+                        />
+                        <rect x="528" y="345" width="120" height="60" rx="9" ry="9" pointer-events="none" id="ByPQyI-WtWQ" />
+                        <g id="r1_mJ8--YWQ">
+                            <switch id="H1YmJ8WWFWX">
+                                <foreignObject pointer-events="all" width="65" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="Hy5Q1I--Y-7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="BJiX18b-FZm">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="By3mJLZ-KW7">
+                                            <span id="rJ6mkU--Y-7">Notify Client</span>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="33" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="HJCm1LW-K-X">&lt;span&gt;Notify Client&lt;/span&gt;</text>
+                            </switch>
+                        </g>
+                        <g id="r1JNyLWZYbX">
+                            <switch id="Hkg4kLb-tWQ">
+                                <foreignObject pointer-events="all" width="23" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="By-E1LZWtZ7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="rkfEkUZ-KWQ">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="r17NJ8--K-m">start
+                                            <br id="BkEEkIWZtZQ" />
+                                            <br id="SJSEkIWZYbX" />
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="12" y="19" text-anchor="middle" font-size="12px" font-family="Helvetica" id="ryUVkLb-KbQ">[Not supported by viewer]</text>
+                            </switch>
+                        </g>
+                        <g id="ByvNyLZbKWX">
+                            <switch id="r1u4JIZ-YbQ">
+                                <foreignObject pointer-events="all" width="20" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="SyYN1U--tZX">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="SJ5VJLWWtb7">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="BkoVkU-bYZX">end
+                                            <br id="Hk34J8WbYZX" />
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <text x="10" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="SkpNy8WbtZm">end&lt;br&gt;</text>
+                            </switch>
+                        </g>
+                        <g id="SyA4yUWbF-m">
+                            <switch id="BkJrk8-bY-m">
+                                <foreignObject pointer-events="all" width="66" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="HyxHJUbZtWX">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="B1ZSJU-bFZX">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="rJfr1I-bKWX">Process File</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="33" y="12" text-anchor="middle" font-size="12px" font-family="Helvetica" id="H17SyUbWF-Q">Process File</text>
+                            </switch>
+                        </g>
+                        <path d="M 650 174 L 791 175" stroke-miterlimit="10" pointer-events="none" id="H1NSk8-WtZm" />
+                        <g id="rJBHkU-ZYbQ">
+                            <switch id="HyLr1LWWFbQ">
+                                <foreignObject pointer-events="all" width="71" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="rJvSk8bbYbQ">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="BJ_ryIWZtWm">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="BJFBkLWZF-m">Load file into
+                                            <br id="By5HkIWbFZ7" /> receiving dir.</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="36" y="19" text-anchor="middle" font-size="12px" font-family="Helvetica" id="Hyjry8WZKbm">[Not supported by viewer]</text>
+                            </switch>
+                        </g>
+                        <rect x="0" y="226" width="160" height="164" pointer-events="none" id="r1hHJIbbY-Q" />
+                        <g id="SJ6S1I-WF-X">
+                            <switch id="BkASkI--Kbm">
+                                <foreignObject pointer-events="all" width="158" height="162" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="r1J8yU-bt-7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="SJxLJLWWF-7">
+                                        <table border="1" width="100%" cellpadding="4" id="SkZL1UWZF-m">
+                                            <tbody id="Hkf8kLW-K-X">
+                                                <tr id="Bk7L1UZ-YZm">
+                                                    <th align="center" id="By4Uk8-ZYbm">
+                                                        <b id="SkSIkUbWYWX">Status</b>
+                                                    </th>
+                                                </tr>
+                                                <tr id="Hk8UJ8ZbF-m">
+                                                    <td align="center" id="SyvLy8WWYb7">Started
+                                                        <br id="Skd8yU-WFbX" />Backout
+                                                        <br id="S1tUJL-bFWm" />Error
+                                                        <br id="HJcUyUZbtZm" />Successful
+                                                        <br id="SJj8yI--YbX" />Cancelled
+                                                        <br id="rynU18bZFZm" />File Not Recieved
+                                                        <br id="rJT8JIWWt-m" />Delayed Import
+                                                        <br id="rk08yLbWFZ7" />Not Started
+                                                        <br id="rk1vJLWbtW7" />Delayed Start</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </foreignObject>
+                                <text x="79" y="87" text-anchor="middle" font-size="12px" font-family="Helvetica" id="BklDJ8bWFbQ">[Not supported by viewer]</text>
+                            </switch>
+                        </g>
+                        <g id="rybwyUZWYbX">
+                            <switch id="H1zDyUWbFZm">
+                                <foreignObject pointer-events="all" width="259" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                                    id="Bk7w1LZ-K-7">
+                                    <div xmlns="http://www.w3.org/1999/xhtml" id="Bk4wJUZZKZ7">
+                                        <div xmlns="http://www.w3.org/1999/xhtml" id="ByBPJIb-K-Q">Batch File State Diagram</div>
+                                    </div>
+                                </foreignObject>
+                                <text x="130" y="23" text-anchor="middle" font-size="22px" font-family="Helvetica" font-weight="bold" id="BJIPyUWWYb7">Batch File State Diagram</text>
+                            </switch>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div id="team" class="step" data-x="2200" data-y="0" data-z="0" data-scale="1">
+            <h2 style="font-size: 45px">IT Ops Team</h2>
+            <ul id="tasks" style="font-size: 30px; line-height: 45px; vertical-align: left; text-align: left !important; list-style-image: url('./img/check.svg'); color: dimgray;">
+                <li class="substep">
+                    Monitoring incoming files from vendors and other sources
+                </li>
+                <li class="substep">
+                    Make sure to notify client regarding unreached files/errors
+                </li>
+                <li class="substep">
+                    Perform file backups by transferring them to relevant servers
+                </li>
+                <li class="substep">
+                    Decrypt encrypted files and put them in recieving directories
+                </li>
+            </ul>
+        </div>
+        <div id="problems" class="step" data-x="2600" data-y="-29" data-z="600" data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90" data-scale="1">
+            <div id="known-problems" style="text-align: -webkit-center; font-size: 90px; text-transform: uppercase; letter-spacing: 3px;-webkit-transform:scale(2,1); /* Safari and Chrome */
+            -moz-transform:scale(1,1.45); /* Firefox */
+            -ms-transform:scale(1,1.45); /* IE 9 */
+            -o-transform:scale(1,1.45); /* Opera */
+            transform:scale(1,1.45); /* W3C */">
+                <table>
+                    <tr>
+                        <td>
+                            Known
+                        </td>
+                        <td style="text-align: right; font-weight: 600;">
+                            problems
+                        </td>
+                    </tr>
+                    <tr style="font-size: 70px;">
+                        <td style="letter-spacing: 11px !important;">
+                            and
+                        </td>
+                        <td style="font-weight: 600; letter-spacing: 20px !important; padding-left: 10px;">
+                            drawbacks
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="human-err" class="step" data-x="2200" data-y="140" data-z="600" data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90"
+            data-scale="1">
+            <div class="extralight" style="font-size: 100px; letter-spacing: 10px; display: inline-block;">HUMAN ERRORS</div>
+            <div style="height: 66px; width: 66px; display: inline-block;">
+                <svg xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null" id="SJmbGwzGm" viewBox="0 0 60 55">
+                    <style>
+                        @-webkit-keyframes BJfmWGvfGm_Animation {
+                            50% {
+                                opacity: 1;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        @keyframes BJfmWGvfGm_Animation {
+                            50% {
+                                opacity: 1;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        #SJmbGwzGm * {
+                            -webkit-animation-duration: 1s;
+                            animation-duration: 1s;
+                            -webkit-animation-iteration-count: infinite;
+                            animation-iteration-count: infinite;
+                            -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                            animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                        }
+
+                        #Byl7bzPfGX {
+                            stroke: null;
+                        }
+
+                        #BJWmbzwff7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                        }
+
+                        #BJfmWGvfGm {
+                            fill-opacity: null;
+                            stroke-width: 1.5;
+                            stroke: #cccccc;
+                            fill: #7f7f7f;
+                            -webkit-animation-name: BJfmWGvfGm_Animation;
+                            animation-name: BJfmWGvfGm_Animation;
+                            -webkit-transform-origin: 50% 50%;
+                            transform-origin: 50% 50%;
+                            transform-box: fill-box;
+                        }
+
+                        #rJXm-GvzGX {
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #Sk4XbzDGfm {
+                            stroke: null;
+                            fill: #7f7f7f;
+                        }
+
+                        #rkBX-zwMGX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #SyUmbfwfGX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #HkP7bGvMf7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #SyuQZfwGMQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #BkFmZzvffQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #H15X-fwfMX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #SJiQWzvzGX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #B12QZMDffm {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #Sk67ZGDGzX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #ryAXWzPGGX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #rk1xXZfDGM7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #rJxlQbMwfMQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #HJZgQbfPGfQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #H1MlXZfvzM7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+
+                        #SJXlXZfvzzQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            visibility: hidden;
+                        }
+                    </style>
+                    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+                    <g id="Byl7bzPfGX">
+                        <title stroke="null">Layer 1</title>
+                        <g id="BJWmbzwff7">
+                            <rect id="BJfmWGvfGm" height="35.000122" width="12.000042" y="12.999953" x="24.499964" />
+                            <g id="rJXm-GvzGX">
+                                <path id="Sk4XbzDGfm" d="m291.874,232.943224l-126.269,-221.753c-4.007,-7.037 -10.776,-11.26 -18.107,-11.26s-14.101,4.202 -18.107,11.239l-126.27,221.733c-3.979,6.989 -4.164,15.013 -0.493,21.326c3.67,6.313 10.663,10.165 18.705,10.165l252.329,0c8.042,0 15.035,-3.852 18.705,-10.165c3.671,-6.313 3.487,-14.296 -0.493,-21.285zm-145.209,-162.05c9.665,0 17.5,7.835 17.5,17.5l0,63c0,9.665 -7.835,17.5 -17.5,17.5c-9.665,0 -17.5,-7.835 -17.5,-17.5l0,-63c0,-9.665 7.835,-17.5 17.5,-17.5zm0.833,117.776c9.665,0 17.5,7.835 17.5,17.5c0,9.665 -7.835,17.5 -17.5,17.5c-9.665,0 -17.5,-7.835 -17.5,-17.5c0,-9.665 7.835,-17.5 17.5,-17.5z"
+                                />
+                            </g>
+                            <g id="rkBX-zwMGX" />
+                            <g id="SyUmbfwfGX" />
+                            <g id="HkP7bGvMf7" />
+                            <g id="SyuQZfwGMQ" />
+                            <g id="BkFmZzvffQ" />
+                            <g id="H15X-fwfMX" />
+                            <g id="SJiQWzvzGX" />
+                            <g id="B12QZMDffm" />
+                            <g id="Sk67ZGDGzX" />
+                            <g id="ryAXWzPGGX" />
+                            <g id="rk1xXZfDGM7" />
+                            <g id="rJxlQbMwfMQ" />
+                            <g id="HJZgQbfPGfQ" />
+                            <g id="H1MlXZfvzM7" />
+                            <g id="SJXlXZfvzzQ" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div id="tech-err" class="step" data-x="2200" data-y="240" data-z="600" data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90"
+            data-scale="1">
+            <div class="extralight" style="font-size: 82px; letter-spacing: 8px; display: inline-block;">TECHNICAL ERRORS</div>
+            <div style="height: 70px; width: 70px; display: inline-block;">
+                <svg xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null" id="Hk3yLPfzQ" viewBox="0 0 60 43">
+                    <style>
+                        @-webkit-keyframes HJLe31UDGz7_Animation {
+                            46.67% {
+                                opacity: 1;
+                            }
+                            50% {
+                                opacity: 0.9;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        @keyframes HJLe31UDGz7_Animation {
+                            46.67% {
+                                opacity: 1;
+                            }
+                            50% {
+                                opacity: 0.9;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        @-webkit-keyframes HJHx3kUwfz7_Animation {
+                            46.67% {
+                                opacity: 1;
+                            }
+                            50% {
+                                opacity: 0.9;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        @keyframes HJHx3kUwfz7_Animation {
+                            46.67% {
+                                opacity: 1;
+                            }
+                            50% {
+                                opacity: 0.9;
+                            }
+                            53.33% {
+                                opacity: 0.8;
+                            }
+                            56.67% {
+                                opacity: 0.7;
+                            }
+                            60% {
+                                opacity: 0.6;
+                            }
+                            63.33% {
+                                opacity: 0.5;
+                            }
+                            66.67% {
+                                opacity: 0.4;
+                            }
+                            70% {
+                                opacity: 0.3;
+                            }
+                            73.33% {
+                                opacity: 0.2;
+                            }
+                            76.67% {
+                                opacity: 0.1;
+                            }
+                            80% {
+                                opacity: 0;
+                            }
+                            0% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+
+                        #Hk3yLPfzQ * {
+                            -webkit-animation-duration: 1s;
+                            animation-duration: 1s;
+                            -webkit-animation-iteration-count: infinite;
+                            animation-iteration-count: infinite;
+                            -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                            animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                        }
+
+                        #BJg3yLDzfm {
+                            stroke: null;
+                        }
+
+                        #HJb218DMz7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            visibility: hidden;
+                            -webkit-transform-origin: 50% 50%;
+                            transform-origin: 50% 50%;
+                            transform-box: fill-box;
+                        }
+
+                        #H1f2yLDfM7 {
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #HyX2JLvGGX {
+                            stroke: null;
+                            fill: #3A3A3A;
+                        }
+
+                        #SkE21LwzfQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #BkB3kIDGfX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #SJLnJ8PMGm {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #SJwh1LvzfX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #r1uh1UDMM7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #SkYnyIPGGX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #rkqnkLvGMX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #S1j3yIvffX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #H12ny8PzfX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #S1Tn1LPMfX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #B1AhJLvzfm {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #Hkkl3yUPzMm {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #HJlln1UwGz7 {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #SyZl218PzMQ {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #Bkzl2kLDzfX {
+                            vector-effect: non-scaling-stroke;
+                            stroke: null;
+                            -webkit-transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                            transform: matrix(0.20429049551964693, 0, 0, 0.20429049551964693, 0, 0);
+                        }
+
+                        #SJ7e21UPMGX {
+                            stroke: null;
+                        }
+
+                        #S1NghJUwzf7 {
+                            stroke: null;
+                            fill: #4d4d4d;
+                        }
+
+                        #HJHx3kUwfz7 {
+                            stroke: #cccccc;
+                            -webkit-transform: rotate(46.56291198730469deg);
+                            transform: rotate(46.56291198730469deg);
+                            -webkit-transform-origin: 50% 50%;
+                            transform-origin: 50% 50%;
+                            stroke-width: 1.5;
+                            fill: #cccccc;
+                            -webkit-animation-name: HJHx3kUwfz7_Animation;
+                            animation-name: HJHx3kUwfz7_Animation;
+                            transform-box: fill-box;
+                        }
+
+                        #HJLe31UDGz7 {
+                            stroke: #cccccc;
+                            -webkit-transform: rotate(-49.298919677734375deg);
+                            transform: rotate(-49.298919677734375deg);
+                            -webkit-transform-origin: 50% 50%;
+                            transform-origin: 50% 50%;
+                            stroke-width: 1.5;
+                            fill: #cccccc;
+                            -webkit-animation-name: HJLe31UDGz7_Animation;
+                            animation-name: HJLe31UDGz7_Animation;
+                            transform-box: fill-box;
+                        }
+                    </style>
+                    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+                    <g id="BJg3yLDzfm">
+                        <title stroke="null">Layer 1</title>
+                        <g id="HJb218DMz7">
+                            <g id="H1f2yLDfM7">
+                                <path id="HyX2JLvGGX" d="m291.874,1079.779549l-126.269,-221.753c-4.007,-7.037 -10.776,-11.26 -18.107,-11.26s-14.101,4.202 -18.107,11.239l-126.27,221.733c-3.979,6.989 -4.164,15.013 -0.493,21.326c3.67,6.313 10.663,10.165 18.705,10.165l252.329,0c8.042,0 15.035,-3.852 18.705,-10.165c3.671,-6.313 3.487,-14.296 -0.493,-21.285zm-145.209,-162.05c9.665,0 17.5,7.835 17.5,17.5l0,63c0,9.665 -7.835,17.5 -17.5,17.5c-9.665,0 -17.5,-7.835 -17.5,-17.5l0,-63c0,-9.665 7.835,-17.5 17.5,-17.5zm0.833,117.776c9.665,0 17.5,7.835 17.5,17.5c0,9.665 -7.835,17.5 -17.5,17.5c-9.665,0 -17.5,-7.835 -17.5,-17.5c0,-9.665 7.835,-17.5 17.5,-17.5z"
+                                />
+                            </g>
+                            <g id="SkE21LwzfQ" />
+                            <g id="BkB3kIDGfX" />
+                            <g id="SJLnJ8PMGm" />
+                            <g id="SJwh1LvzfX" />
+                            <g id="r1uh1UDMM7" />
+                            <g id="SkYnyIPGGX" />
+                            <g id="rkqnkLvGMX" />
+                            <g id="S1j3yIvffX" />
+                            <g id="H12ny8PzfX" />
+                            <g id="S1Tn1LPMfX" />
+                            <g id="B1AhJLvzfm" />
+                            <g id="Hkkl3yUPzMm" />
+                            <g id="HJlln1UwGz7" />
+                            <g id="SyZl218PzMQ" />
+                            <g id="Bkzl2kLDzfX" />
+                        </g>
+                        <g id="SJ7e21UPMGX">
+                            <path id="S1NghJUwzf7" d="m20.173063,8.931973c-1.312961,-0.996467 -2.95962,-1.587078 -4.749738,-1.587078c-4.213327,0 -7.643866,3.283192 -7.749901,7.375066c-4.350548,1.593135 -7.44739,5.694096 -7.44739,10.497733c0,5.675924 4.319362,10.367496 9.923616,11.106517l0,0.102978l39.700702,0l0,-0.018173c5.535644,-0.314993 9.923616,-4.797579 9.923616,-10.28269c0,-5.291269 -4.082342,-9.649676 -9.337306,-10.23423c0.021831,-0.32105 0.034305,-0.648158 0.034305,-0.975265c0,-8.198893 -7.082505,-14.844025 -15.817907,-14.844025c-6.465008,0 -12.025601,3.640587 -14.479997,8.859166"
+                            />
+                        </g>
+                        <rect id="HJHx3kUwfz7" height="3.624982" width="25.249872" y="28.312496" x="17.437564" />
+                        <rect id="HJLe31UDGz7" height="3.624982" width="25.249872" y="28.937492" x="18.18756" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div id="time-lim" class="step" data-x="2200" data-y="300" data-z="600" data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90" data-scale="1">
+            <div class="extralight" style="font-size: 80px; letter-spacing: 10px; display: inline-block;">TIME - CONSUMING</div>
+            <div style="height: 73px; width: 73px; display: inline-block;">
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-lds-clock">
+                    <g transform="translate(35 68)">
+                        <g ng-attr-transform="scale({{config.scale}})" transform="scale(0.8)">
+                            <g transform="translate(-50 -50)">
+                                <path ng-attr-fill="{{config.c1}}" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-width="{{config.width}}"
+                                    d="M50,14c19.85,0,36,16.15,36,36S69.85,86,50,86S14,69.85,14,50S30.15,14,50,14 M50,10c-22.091,0-40,17.909-40,40 s17.909,40,40,40s40-17.909,40-40S72.091,10,50,10L50,10z"
+                                    fill="#cecece" stroke="#cecece" stroke-width="0"></path>
+                                <path ng-attr-fill="{{config.c3}}" d="M52.78,42.506c-0.247-0.092-0.415-0.329-0.428-0.603L52.269,40l-0.931-21.225C51.304,18.06,50.716,17.5,50,17.5 s-1.303,0.56-1.338,1.277L47.731,40l-0.083,1.901c-0.013,0.276-0.181,0.513-0.428,0.604c-0.075,0.028-0.146,0.063-0.22,0.093V44h6 v-1.392C52.925,42.577,52.857,42.535,52.78,42.506z"
+                                    fill="#878787" transform="rotate(259.259 50 50)">
+                                    <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50"
+                                        keyTimes="0;1" dur="2.025s" begin="0s" repeatCount="indefinite"></animateTransform>
+                                </path>
+                                <path ng-attr-fill="{{config.c2}}" d="M58.001,48.362c-0.634-3.244-3.251-5.812-6.514-6.391c-3.846-0.681-7.565,1.35-9.034,4.941 c-0.176,0.432-0.564,0.717-1.013,0.744l-15.149,0.97c-0.72,0.043-1.285,0.642-1.285,1.383c0,0.722,0.564,1.321,1.283,1.363 l15.153,0.971c0.447,0.027,0.834,0.312,1.011,0.744c1.261,3.081,4.223,5.073,7.547,5.073c2.447,0,4.744-1.084,6.301-2.975 C57.858,53.296,58.478,50.808,58.001,48.362z M50,53.06c-1.688,0-3.06-1.373-3.06-3.06s1.373-3.06,3.06-3.06s3.06,1.373,3.06,3.06 S51.688,53.06,50,53.06z"
+                                    fill="#878787" transform="rotate(334.815 50 50)">
+                                    <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50"
+                                        keyTimes="0;1" dur="8.1s" begin="0s" repeatCount="indefinite"></animateTransform>
+                                </path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div id="solution" class="step" data-x="3000" data-y="0" data-z="0" data-scale="1">
+                <div class="big bold" style="font-size: 60px">Solution?</div>
+        </div>
+        <div id="modules" class="step" data-x="3000" data-y="500" data-z="0" data-scale="1">
+            <div id="solution" style="text-align: -webkit-center; font-size: 30px; letter-spacing: 3px; box-sizing: border-box;">
+                <div class="row">
+                    <h1>Batch Monitoring System</h1>
+                    <div class="column" style="background-color:#aaa;">
+                        <h3 style="letter-spacing: 1px;">MARSMonitoringWeb</h3>
+                        <p>Web Application</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                        <h3 style="font-size: 35.2px">GPGFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ccc;">
+                        <h3 style="font-size: 35.2px">PDFFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ddd;">
+                        <h3 style="font-size: 35.2px">FileMover</h3>
+                        <p>Console Application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="web" class="step" data-x="2700" data-y="400" data-z="-1000" data-scale="0.02" style="width: 1200px !important;">
+            <h2 style="font-size: 45px; letter-spacing: 3px;">MARSMonitoringWeb</h2>
+            <ul id="feat-web" style="font-size: 30px; line-height: 45px; vertical-align: left; text-align: left !important; list-style-image: url('./img/star.svg'); color: #3A3A3A;">
+                <li class="substep">
+                    It is a 3-tier business architecture web application to monitor files
+                </li>
+                <li class="substep">
+                    Front end designes in HTML, CSS, BootStrap with JavaScript and jQuery controls
+                </li>
+                <li class="substep" style="letter-spacing: -1px">
+                    C#, JavaScript have extensively been used in this module's functioning
+                </li>
+                <li class="substep">
+                    ASP.NET Web Pages, MVC frameworks have been used to bind data from back-end (Third party APIs DHTMLX, Infragistics, Telerik used)
+                </li>
+                <li class="substep">
+                    PL/SQL in Oracle database has been used to fetch, update, edit and delete records of tables
+                </li>
+                <li class="substep">
+                    BusinessObject class is used to get/set data from/to database
+                </li>
+                <li class="substep">
+                    UNC paths are accessed programatically to view files in it
+                </li>
+                <li class="substep">
+                    Security is ensured by making all Page classes child of BasePage
+                </li>
+                <li class="substep">
+                    LINQ statements make datasource processing much simpler
+                </li>
+            </ul>
+        </div>
+        <div id="modules" class="step" data-x="3000" data-y="500" data-z="0" data-scale="1">
+            <div id="solution" style="text-align: -webkit-center; font-size: 30px; letter-spacing: 3px; box-sizing: border-box;">
+                <div class="row">
+                    <h1>Batch Monitoring System</h1>
+                    <div class="column" style="background-color:#aaa;">
+                        <h3 style="letter-spacing: 1px;">MARSMonitoringWeb</h3>
+                        <p>Web Application</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                        <h3 style="font-size: 35.2px">GPGFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ccc;">
+                        <h3 style="font-size: 35.2px">PDFFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ddd;">
+                        <h3 style="font-size: 35.2px">FileMover</h3>
+                        <p>Console Application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gpg" class="step" data-x="3200" data-y="400" data-z="-1000" data-scale="0.02">
+            <h2 style="font-size: 45px; letter-spacing: 3px;">GPGFileWatcher</h2>
+            <ul id="feat-gpg" style="font-size: 30px; line-height: 45px; vertical-align: left; text-align: left !important; list-style-image: url('./img/star.svg'); color: #3A3A3A;">
+                <li class="substep">
+                    It is a Windows Service written completley in C#
+                </li>
+                <li class="substep">
+                    It takes entries from an XML file to monitor certain folder
+                </li>
+                <li class="substep">
+                    Each folder is associated with its own password and in the folder .gpg files can be created
+                </li>
+                <li class="substep">
+                    All .gpg files are secure and can only be opened by the intended person 
+                </li>
+                <li class="substep">
+                    GpgAPI library has been used in this module to decrypt the incoming files
+                </li>
+                <li class="substep">
+                    Logs are maintained by the Windows Service to check its timely operations
+                </li>
+                <li class="substep">
+                    After the file is detected and decrypted by the service, it is moved to an 'Archive' folder
+                </li>
+            </ul>
+        </div>
+        <div id="modules" class="step" data-x="3000" data-y="500" data-z="0" data-scale="1">
+            <div id="solution" style="text-align: -webkit-center; font-size: 30px; letter-spacing: 3px; box-sizing: border-box;">
+                <div class="row">
+                    <h1>Batch Monitoring System</h1>
+                    <div class="column" style="background-color:#aaa;">
+                        <h3 style="letter-spacing: 1px;">MARSMonitoringWeb</h3>
+                        <p>Web Application</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                        <h3 style="font-size: 35.2px">GPGFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ccc;">
+                        <h3 style="font-size: 35.2px">PDFFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ddd;">
+                        <h3 style="font-size: 35.2px">FileMover</h3>
+                        <p>Console Application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pdf" class="step" data-x="2700" data-y="700" data-z="-1000" data-scale="0.02">
+            <h2 style="font-size: 45px; letter-spacing: 3px;">PDFFileWatcher</h2>
+            <ul id="feat-pdf" style="font-size: 30px; line-height: 45px; vertical-align: left; text-align: left !important; list-style-image: url('./img/star.svg'); color: #3A3A3A;">
+                <li class="substep">
+                    It is a Windows Service written completley in C#
+                </li>
+                <li class="substep">
+                    It monitors the whole storage and is deployed on production server directly
+                </li>
+                <li class="substep">
+                    The service monitors file creation and deletion operations in the server and keeps track of which logged on user did it
+                </li>
+                <li class="substep">
+                    The requirement stated that .pdf files are to be monitored
+                </li>
+                <li class="substep">
+                    Upon any error and every 24 hours, when the service is running, logs will be mailed to an email address mentioned in App.config
+                </li>
+                <li class="substep">
+                    Logs are maintained by the Windows Service to check its timely operations
+                </li>
+                <li class="substep">
+                    A .NET library called Cassia is used in this module to know which logged on user is doing what operation to which .pdf file
+                </li>
+            </ul>
+        </div>
+        <div id="modules" class="step" data-x="3000" data-y="500" data-z="0" data-scale="1">
+            <div id="solution" style="text-align: -webkit-center; font-size: 30px; letter-spacing: 3px; box-sizing: border-box;">
+                <div class="row">
+                    <h1>Batch Monitoring System</h1>
+                    <div class="column" style="background-color:#aaa;">
+                        <h3 style="letter-spacing: 1px;">MARSMonitoringWeb</h3>
+                        <p>Web Application</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                        <h3 style="font-size: 35.2px">GPGFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ccc;">
+                        <h3 style="font-size: 35.2px">PDFFileWatcher</h3>
+                        <p>Windows Service</p>
+                    </div>
+                    <div class="column" style="background-color:#ddd;">
+                        <h3 style="font-size: 35.2px">FileMover</h3>
+                        <p>Console Application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mover" class="step" data-x="3200" data-y="700" data-z="-1000" data-scale="0.02">
+            <h2 style="font-size: 45px; letter-spacing: 3px;">PDFFileWatcher</h2>
+            <ul id="feat-mover" style="font-size: 30px; line-height: 45px; vertical-align: left; text-align: left !important; list-style-image: url('./img/star.svg'); color: #3A3A3A;">
+                <li class="substep">
+                    It is Windows console application written in C#
+                </li>
+                <li class="substep">
+                    The console application is used by the team to backup files from production server to backup server
+                </li>
+                <li class="substep">
+                    It has two modes: standalone(takes source and destination from an XML file) and arguments(takes source and destination as arguments)
+                </li>
+                <li class="substep">
+                    The requirement stated that .pdf files are to be monitored
+                </li>
+                <li class="substep">
+                    Upon any error and after running application logs will be mailed to an email address mentioned in App.config
+                </li>
+                <li class="substep">
+                    Logs are maintained by the Windows Service to check its timely operations
+                </li>
+                <li class="substep">
+                    A .NET library called Zeta Long Paths is being used to overcome the Windows limitation where not more than 260 characters are allowed in a file path
+                </li>
+                <li class="substep">
+                    The console application backs up files incrementally
+                </li>
+            </ul>
+        </div>
+        <div id="que" class="step" data-x="0" data-y="0" data-z="0" data-scale="20">
+            <div id="questions" class="big bold" style="font-size: 170px; position: relative; top: 100px;">Questions</div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/impress.js"></script>
+    <script type="text/javascript">impress().init();</script>
+    <script src="js/script.js"></script>
+    <script>(function () { var a = document.querySelector('#Hk18ZZtZQ'), b = a.querySelectorAll('style'), c = function (d) { b.forEach(function (f) { var g = f.textContent; g && (f.textContent = g.replace(/transform-box:[^;\r\n]*/gi, 'transform-box: ' + d)) }) }; c('initial'), window.requestAnimationFrame(function () { return c('fill-box') }) })();</script>
+    <script>(function () { var a = document.querySelector('#SJmbGwzGm'), b = a.querySelectorAll('style'), c = function (d) { b.forEach(function (f) { var g = f.textContent; g && (f.textContent = g.replace(/transform-box:[^;\r\n]*/gi, 'transform-box: ' + d)) }) }; c('initial'), window.requestAnimationFrame(function () { return c('fill-box') }) })();</script>
+    <script>(function () { var a = document.querySelector('#Hk3yLPfzQ'), b = a.querySelectorAll('style'), c = function (d) { b.forEach(function (f) { var g = f.textContent; g && (f.textContent = g.replace(/transform-box:[^;\r\n]*/gi, 'transform-box: ' + d)) }) }; c('initial'), window.requestAnimationFrame(function () { return c('fill-box') }) })();</script>
+</body>
+
 </html>
